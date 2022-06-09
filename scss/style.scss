@@ -1,0 +1,46 @@
+$celeste: #1c95af;
+$blanco: white;
+
+#styleGral{
+    display: grid;
+    grid-template-areas: "header header" 
+                         "navegador navegador"
+                         "contenido parrafo" 
+                         "publicidad publicidad"
+                         "footer footer";
+    grid-template-columns: 6fr;
+    grid-template-rows: 100px 100px 100px 100x ;
+    grid-gap: 30px;
+    font-family: Raleway;
+    a {
+        text-decoration: none;
+        color: inherit;
+        
+    }   
+}
+
+
+#styleProductos{
+    display: grid;
+    grid-template-areas: "header header header" 
+                         "navegador navegador navegador"
+                         "producto1 producto2 producto3" 
+                         "producto4 producto5 producto6"
+                         "footer footer footer";
+    grid-auto-flow: column;
+    grid-gap: 30px;
+    font-family: Raleway;
+    a {
+        text-decoration: none;
+        color: inherit;
+        
+    }   
+}
+
+@import "header";
+@import "navegador";
+@import "contenido";
+@import "contenidoProductos";
+@import "footer";
+
+

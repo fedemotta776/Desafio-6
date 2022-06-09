@@ -1,0 +1,24 @@
+.contenido {
+        grid-area: contenido;
+        display: flex;
+        size: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+.parrafo {
+        grid-area: parrafo;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: $celeste;
+        margin-bottom: 30px;
+    }
+.publicidad {
+        grid-area: publicidad;
+        display: flex;
+    
+    }
+.imgPublicidad {
+        width: 100%;
+    }
